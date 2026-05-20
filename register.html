@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing up</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <main class="contenedorLogin"> 
+        <form class="form" method="POST" action="php/register.php">  
+            <h1 class="">Crea una cuenta en la Ferretería de Don Toño</h1>
+            <div class="inputsBlock"> 
+                <label for="floatingInput">Nombre Completo</label>  
+                <input type="text" class="inputs" id="floatingInput" placeholder="Nombre Apellido" name="nombre">
+            </div> 
+
+            <div class="inputsBlock"> 
+                <label for="floatingInput">Email address</label>  
+                <input type="email" class="inputs" id="floatingInput" placeholder="name@example.com" name="correo">
+            </div> 
+            <div class="inputsBlock"> 
+                <label for="floatingPassword">Password</label>  
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
+            </div> 
+
+            <div class="inputsBlock">
+                <button class="btn btn-primary" type="submit">Sign in</button> 
+                <p class ="anio">© 2017–2025</p> 
+            </div>
+           
+        </form> 
+    </main>
+    
+
+</body>
+</html>
